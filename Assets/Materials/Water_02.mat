@@ -110,7 +110,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FoamAmount: 0.3
+    - _FoamAmount: 0.5
     - _FoamCutOff: 0.9
     - _FoamScale: 300
     - _FoamSpeed: 0.005
@@ -127,7 +127,7 @@ Material:
     - _RefractionRotation: 0
     - _RefractionScale: 1
     - _RefractionSpeed: 0.01
-    - _RefractionStrength: 1
+    - _RefractionStrength: 3
     - _Rotation: 0
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
