@@ -21,22 +21,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaves
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7e1279a47db99404980e06abd557f1ec,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHATEST_ON
-  - _DETAIL_MULX2
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
-  - _OCCLUSIONMAP
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -82,6 +77,26 @@ Material:
         m_Texture: {fileID: 2800000, guid: 79ca23087f9153a4db0c55c8a215bc31, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_326e67c5b5eb4eb1bd56fe108d333b3b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 37595f023028b0744bb16b4748467f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5ce6c6628fc047ca9dd0b0e254cc332d_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a5a4c34db4f9baf4e9cd3549087c729e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_755ec87139624c58b77732d4dd00be4f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7b8181707f5a713439257fe031903836, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_91083fc00a7e452497dcb0dfca0704eb_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 37595f023028b0744bb16b4748467f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c17fd334c0c24801ac873783f46ed623_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1d165b9135e4ba8429c0d076cb9d76c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -118,15 +133,22 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NormalInfluence: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _SSSIntensity: 5
+    - _SSSPower: 3
+    - _SSS_Power: 0.01
+    - _SSS_Scale: 0.0005
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+    - _SubsufaceDistortion: 10
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -134,5 +156,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeafColor1: {r: 0.6444414, g: 0.36058205, b: 0.6886792, a: 0}
+    - _LeafColor2: {r: 1, g: 1, b: 1, a: 0}
+    - _SSSColor: {r: 0.745283, g: 0.26366144, b: 0.6472529, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
