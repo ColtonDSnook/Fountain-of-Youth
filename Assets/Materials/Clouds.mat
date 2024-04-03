@@ -38,9 +38,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaAmount: 0.8
+    - _CloudAmount: 0.8
+    - _CloudScale: 40
+    - _Direction: -45
+    - _DistortScale: 80
+    - _DistortSpeed: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _Speed: 0.005
+    m_Colors:
+    - _Color: {r: 0, g: 0.88305783, b: 1, a: 0}
+    - _VertexDisplacement: {r: 0, g: 0, b: -0.2, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &53803809160944581
 MonoBehaviour:
